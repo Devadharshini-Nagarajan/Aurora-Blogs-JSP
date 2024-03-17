@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/united/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aurora</title>
+    <style>
+      .nav-div {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+      }
+      .jumbotron {
+        background-image: url("https://coolthemestores.com/wp-content/uploads/2020/11/aurora-featured.jpg");
+        background-position: center;
+        background-size: cover;
+        color: white;
+      }
+
+      .card {
+        animation-name: example2;
+        animation-duration: 2s;
+      }
+
+      #testimony {
+        min-height: 500px;
+        background-position: bottom;
+        background-size: cover;
+        background-image: url("https://images.pexels.com/photos/2868871/pexels-photo-2868871.jpeg");
+      }
+
+      footer {
+        min-height: 100px;
+        padding: 80px 0;
+        font-size: 50px;
+      }
+
+      footer .fa {
+        color: rgb(65, 4, 56) !important;
+      }
+
+      footer .fa:hover {
+        color: rgb(128, 59, 117) !important;
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Aurora</a>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto nav-div">
+          <li class="nav-item">
+            <a class="nav-link active" href="guestBlogsView">Guest </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="login">Login </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="registration">Register</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <h1 class="display-3">Hello, Aurora Hunters!</h1>
+      <p class="lead">Welcome!!</p>
+      <hr class="my-4" />
+      <p>
+       Get inspired and stay informed with our blog, featuring articles on a variety of topics from industry experts and thought leaders.
+      </p>
+      <p class="lead">
+        <a class="btn btn-dark btn-lg" href="login" role="button">Login to learn more</a>
+      </p>
+    </div>
+
+    <div id="features" class="container">
+      <div class="row">
+        <div class="col-md">
+          <div class="card text-white bg-dark mb-3" style="max-width: 20rem">
+            <div class="card-header">Categories</div>
+            <div class="card-body">
+              <!-- <h4 class="card-title">Affordable Tools</h4> -->
+              <p class="card-text">
+                Group your blog posts into categories based on topics or themes. This can help visitors find the content that interests them most and also give them a sense of the breadth of your blog's coverage
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card text-white bg-dark mb-3" style="max-width: 20rem">
+            <div class="card-header">Newsletter Signup</div>
+            <div class="card-body">
+              <!-- <h4 class="card-title">High-Quality Tools</h4> -->
+              <p class="card-text">
+                Encourage visitors to sign up for your blog's newsletter by including a signup form on the main page. This can help you grow your subscriber base and keep readers engaged with your content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card text-white bg-dark mb-3" style="max-width: 20rem">
+            <div class="card-header">Related Content</div>
+            <div class="card-body">
+           <!--    <h4 class="card-title">Full Gurantee of tools</h4> -->
+              <p class="card-text"> If you have guest bloggers that have contributed to your website, highlight them and their contribution on the main page. It helps visitors discover new perspectives and authors they might not have come across before.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="testimony">
+      <div class="container">
+        <h1 style="padding-top: 150px">Testimonies</h1>
+        <div class="row">
+          <div class="col-md">
+            <blockquote class="blockquote text-center">
+              <p class="mb-0">
+                Best place to get all necessary information on Northern Lights trip, great customer service
+                too.
+              </p>
+              <footer class="blockquote-footer">
+                CEO <cite title="Source Title">Aurora International</cite>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="col-md">
+            <blockquote class="blockquote text-center">
+              <p class="mb-0">
+                Everything in place, just search what you need and get it
+                quickly. Awesome Service.
+              </p>
+              <footer class="blockquote-footer">
+                MTO <cite title="Source Title">AURORA</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
