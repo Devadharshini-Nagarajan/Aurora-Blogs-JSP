@@ -1,15 +1,15 @@
-# Message Board Application
+# Blogs Application
 
 ## Project Objective
 
-The goal of this project is to develop a web-based Message Board application that allows users to post messages and reply to each other in a threaded format.
+The goal of this project is to develop a web-based Message Board application that allows users to post blogs, like/unlike posts.
 
 <img width="1440" alt="image" src="https://github.com/Devadharshini-Nagarajan/Aurora-Blogs-JSP/assets/113491692/89b2af0f-ff19-4b56-8c92-261e857597fd">
 
 ## Key Features
 
 - **User Registration and Login**: Users can register for an account and log in to the platform.
-- **Message Posting and Threaded Replies**: Users can post messages and reply to other messages in a threaded format.
+- **Message Posting**: Users can post blogs and like/unlike posts.
 - **Search Functionality**: Users can search for specific messages, topics, or hashtags.
 - **Upvote/Downvote Messages**: Users can upvote or downvote messages.
 - **Edit and Delete Messages**: Users can edit and delete their own messages.
