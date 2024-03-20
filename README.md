@@ -4,7 +4,8 @@
 
 The goal of this project is to develop a web-based Message Board application that allows users to post blogs, like/unlike posts.
 
-<img width="1440" alt="image" src="https://github.com/Devadharshini-Nagarajan/Aurora-Blogs-JSP/assets/113491692/89b2af0f-ff19-4b56-8c92-261e857597fd">
+<img width="1439" alt="image" src="https://github.com/Devadharshini-Nagarajan/Aurora-Blogs-JSP/assets/113491692/fe398b8a-8fcf-45b4-95fe-911870403aa3">
+
 
 ## Key Features
 
